@@ -8,6 +8,9 @@ import Registration3 from "./pages/Registration/Registration3";
 import Dashboard1 from "./pages/Dashboard";
 import ProspectForm1 from "./pages/ProspectForm/ProspectForm1";
 import ProspectForm2 from "./pages/ProspectForm/ProspectForm2";
+import About from "./pages/About"
+import PoolSelector from "./pages/PoolSelector";
+import Profile from "./pages/Profileown";
 
 const theme = createMuiTheme({
   overrides: {
@@ -35,6 +38,9 @@ function App() {
               <Route exact path="/dashboard" element={<Dashboard1 />} />
               <Route exact path="/prospectform1" element={<ProspectForm1 />} />
               <Route exact path="/prospectform2" element={<ProspectForm2 />} />
+              <Route exact path="/about" element={<About />} />
+              <Route exact path="/poolselector" element={<PoolSelector />} />
+              <Route exact path="/profileown" element={<Profile />} />
             </Routes>
       </BrowserRouter>
     </ThemeProvider>

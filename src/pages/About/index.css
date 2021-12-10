@@ -1,0 +1,111 @@
+.About{
+  
+}
+
+.After-Drawer{
+    display: flex;
+    margin-left: 230px;
+    height: 100vh;
+    width: 80vw;
+    
+}
+
+.options{
+    height: 9vh;
+    width: 7vw;
+    font-family: 'Bebas Neue', cursive;
+   
+}
+
+.box{
+    position: relative;
+    height: 8vh;
+    width: 18vh;
+    left:1.5vw;
+    padding-top: 2vh;
+    
+}
+
+.box-icon{
+
+}
+.boxhead{
+
+    font-size: 1.8vh;
+    color: white;
+
+}
+.boxcontent{
+    font-size: 2.6vh;
+    color: white;
+
+}
+
+.img1{
+    position: relative;
+   
+    height : 65vh;
+    width: 25vw;
+    top: 12vh;
+    margin-left: 20vw;
+} 
+.content1{
+    position: relative;
+   
+    height : 40vh;
+    width: 30vw;
+    left:4vw;
+    top:30vh;
+}
+.content1-head1{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: normal;
+    color: #E51615;
+   
+    height:3.5vh;
+    width: 12vw;
+    font-size: 2vh;
+}
+.content1-head2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vh;
+    
+    margin-top: 1vh;
+    color: #131742;
+}
+.content1-head3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2vh;
+    line-height: 3vh;
+    color: #666666;
+    margin-top: 1.5vh;
+}
+.red-button{
+    width: 7vw;
+    height: 4vh;
+    background: linear-gradient(270.46deg, #E51615 0.42%, #F73D56 151.11%);
+    box-shadow: 0px 8px 32px rgba(235, 48, 34, 0.42);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.red-button p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 1.2vh;
+   
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+
+}

@@ -4,6 +4,7 @@ import boy1 from "../../Images/AdobeStock_214746128 (1)3.png";
 import laughingBoy from "../../Images/AdobeStock_1445627161.png";
 import girl from "../../Images/AdobeStock_253980681 2 1.png";
 import girl1 from "../../Images/AdobeStock_2479749531.png";
+import girl3 from "../../Images/AdobeStock_269221208 1.png"
 import groupPhoto from "../../Images/AdobeStock_271631079 1.jpg";
 import GlassCard from "../../components/UI/GlassCard";
 import BlueButton from "../../components/UI/BlueButton";
@@ -20,14 +21,17 @@ import CakeRoundedIcon from '@mui/icons-material/CakeRounded';
 import EmojiEmotionsOutlinedIcon from '@mui/icons-material/EmojiEmotionsOutlined';
 import BoltOutlinedIcon from '@mui/icons-material/BoltOutlined';
 import CelebrationOutlinedIcon from '@mui/icons-material/CelebrationOutlined';
+import FavoriteIcon from '@mui/icons-material/Favorite';
 import PoppText from "../../components/UI/PoppText";
+import StarIcon from '@mui/icons-material/Star';
+import ShowChartIcon from '@mui/icons-material/ShowChart';
 import "./style.css";
 
 const HomePage = () => {
   return(
     <div className="home-page">
       <Navbar/>
-        <div className=" landing landing1">
+      <div className=" landing landing1">
         <div className="landing1-text">
           <p className="t1">MATCH YOUR __</p>
           <p className="t2">Lifestyle</p>
@@ -99,10 +103,140 @@ const HomePage = () => {
           </GlassCard>
         </div>
       </div>
-      <div className="landing2">
+    <div className="landing2">
+
+
+<BlueBox style={{height :"35vh",width:"17vw",top:"140vh",fontFamily: 'Bebas Neue'}}>
+                   
+             <RedBox style={{height:"2.8vh",width:"1.2vw",top:"-3vh",left:"-2vw",borderRadius:"2vw",display:"flex",justifyContent:"center"}}>
+
+                  <FavoriteIcon sx={{ fontSize: 30 , color: "white"}}/>
+               
+               </RedBox>       
+            <div className="BlueBox-header">
+
+              <div>
+              
+                <div className="boxheader" style={{fontSize:"2.3vh"}}>
+                    FINISHED
+                </div>
+                <div className="boxcontent-container" style={{fontSize:"3.5vh"}}>
+                    STRUGLES
+                </div>
+              </div>
+
+              <div className="dual-image">
+                    <div className="girl">
+                    <img className="img11" src={boy1} alt=""/>
+                    </div>
+                    <div className =" boy">
+                      <img className="img11" src={girl1} alt=""/>
+                    </div>
+              </div>
+             </div>
+
+             <div className="BlueBox-middle">
+
+             <RedBox style={{height:"0.2vh",width:"0.2vw",display:"flex",justifyContent:"center",alignItems:"center",color:"white"}}>
+              
+                        <p style={{color:"white",fontWeight:"bold"}} >#1</p>
+
+              </RedBox> 
+              <div className="boxcontent-container" style={{fontSize:"2.5vh",position:"absolute",left:"5vw",marginTop:"1.5vh",fontWeight:"bold",letterSpacing:"0.1vw"}}>
+                    STRUGLES
+                </div>
+                  
+                  </div>
+
+                <div className="BlueBox-footer">
+
+                    <div className="options1">
+                        <div className="box-icon">
+                            {/* <StarIcon sx={{ fontSize: 13 , color: "red"}}/> */}
+                        </div>
+                        <div className="boxheader">
+                            BORN
+                        </div>
+                        <div className="boxcontent-container">
+                            5 DEC 
+                            <StarIcon sx={{ fontSize: 10 , color: "red"}}/>
+                        </div>
+                    </div>
+
+                    <div className="options1">
+                        <div className="box-icon">
+                            {/* <StarIcon sx={{ fontSize: 13 , color: "red"}}/> */}
+                        </div>
+                        <div className="boxheader">
+                            BORN
+                        </div>
+                        <div className="boxcontent-container">
+                            5 DEC 
+                            <StarIcon sx={{ fontSize: 10 , color: "red"}}/>
+                        </div>
+                    </div>
+                    <div className="options1">
+                        <div className="box-icon">
+                            {/* <StarIcon sx={{ fontSize: 13 , color: "red"}}/> */}
+                        </div>
+                        <div className="boxheader">
+                            BORN
+                        </div>
+                        <div className="boxcontent-container">
+                            5 DEC
+                            <StarIcon sx={{ fontSize: 10 , color: "red"}}/>
+                        </div>
+                    </div>
+
+                    <div className="options1">
+                        <div className="box-icon">
+                            <StarIcon sx={{ fontSize: 13 , color: "red"}}/>
+                        </div>
+                        <div className="boxheader">
+                            BORN
+                        </div>
+                        <div className="boxcontent-container">
+                            5 DEC 1990
+                        </div>
+                    </div>
+
+                    <div className="options1">
+                        <div className="box-icon">
+                            <StarIcon sx={{ fontSize: 13 , color: "red"}}/>
+                        </div>
+                        <div className="boxheader">
+                            BORN
+                        </div>
+                        <div className="boxcontent-container">
+                            5 DEC 1990
+                        </div>
+                    </div>
+                    <div className="options1">
+                        <div className="box-icon">
+                            <StarIcon sx={{ fontSize: 13 , color: "red"}}/>
+                        </div>
+                        <div className="boxheader">
+                            BORN
+                        </div>
+                        <div className="boxcontent-container">
+                            5 DEC 1990
+                        </div>
+                    </div>
+                    
+                  </div> 
+                    
+                </BlueBox>
+
+
         <div className="landing2-image">
           <img src={boy} alt=""/>
         </div>
+
+        <div className="img12">
+          <img src={girl3} alt=""/>
+        </div>
+        
+
         <div className="landing2-text">
           <p className="head1">SO YOU WANT  TO DATE SOMEONE WITH __</p>
           <p className="head2">Passion and Drive?</p>
@@ -110,7 +244,7 @@ const HomePage = () => {
           <p className="text">Mauris sapien elit, porta vel faucibus in, scelerisque nec arcu.</p>
           <BlueButton text="HOW DO WE DO IT?"/>
         </div>
-      </div>
+    </div>
       <div className="landing3">
       <div className="landing3-text">
           <p className="head1">SO YOU WANT  TO DATE SOMEONE WITH __</p>

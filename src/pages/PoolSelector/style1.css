@@ -1,0 +1,122 @@
+
+.After-Drawer{
+    display: flex;
+    margin-left: 230px;
+    height: 100vh;
+    width: 80vw;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.options{
+    height: 9vh;
+    width: 7vw;
+   
+}
+
+.box{
+    position: relative;
+    height: 8vh;
+    width: 18vh;
+    left:1.5vw;
+    padding-top: 2vh;
+    
+}
+
+.box-icon{
+
+}
+.boxhead{
+
+    font-size: 1.5vh;
+    color: gray;
+
+}
+.boxcontent{
+    font-size: 2.2vh;
+    color: blue;
+
+}
+
+.image1{
+    position: absolute;
+    height: 90vh;
+    width: 40vw;
+    top: 8vh;
+    left: 40vw;
+    z-index: -1;
+}
+
+.image2{
+    height: 25vh;
+    width: 10vw;
+    border-radius: 5vh;
+    position: absolute;
+    top: 67vh;
+    left: 20vw;
+}
+.image3{
+    height: 25vh;
+    width: 10vw;
+    border-radius: 5vh;
+    position: absolute;
+    top: 67vh;
+    left: 35vw;
+    
+}
+
+.data-logo{
+    display: flex;
+
+}
+.data-logo p{
+    font-size: 3.5vh;
+    font-weight: bold;
+    color: rgb(20, 20, 67);
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+
+.data-head1 p{
+
+    font-size: 12vh;
+    color: red;
+    /* font-family: Bebas Neue; */
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    margin-top: -4vh;
+    margin-bottom: -4vh;
+    font-weight: 600;
+    
+
+}
+.data-head1 span{
+
+    font-size: 8vh;
+    color: rgb(20, 20, 67);
+    /* font-family: Bebas Neue; */
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    padding-top: -4vh;
+    font-weight: 600;
+
+}
+
+.data-content-comma{
+
+    color: red;
+    font-size: 4vh;
+    font-weight: bolder;
+    display: inline;
+    margin-top: -2vh;
+    /* margin-right: 0.5vw; */
+
+}
+.data-content{
+    
+    margin-top: -2vh;
+}

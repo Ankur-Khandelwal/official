@@ -1,0 +1,103 @@
+.After-Drawer{
+    display: flex;
+    margin-left: 230px;
+    height: 100vh;
+    width: 80vw;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.options{
+    height: 9vh;
+    width: 7vw;
+   
+}
+
+.box{
+    position: relative;
+    height: 8vh;
+    width: 18vh;
+    left:1.5vw;
+    padding-top: 2vh;
+    
+}
+
+.box-icon{
+
+}
+.boxhead{
+
+    font-size: 1.5vh;
+    color: gray;
+
+}
+.boxcontent{
+    font-size: 2.2vh;
+    color: blue;
+
+}
+
+.imageP1{
+    position: absolute;
+    height: 70vh;
+    width: 35vw;
+    top: 8vh;
+    left: 40vw;
+    z-index: -1;
+}
+
+.detail-card{
+
+    height: 35vh;
+    width: 17vw;
+    /* border: 2px solid black; */
+    border-radius: 10%;
+
+}
+
+.detail-image{
+
+    /* border: 2px solid black; */
+    height: 17vh;
+    width: 17vw;
+    border-radius: 10%;
+
+}
+
+.detail-head{
+
+    /* border: 2px solid black; */
+    height: 6vh;
+    width: 15vw;
+    font-size: 2vh;
+    padding-top: 0.7vh;
+    font-family: 'Bebas Neue';
+    color: rgb(72, 69, 69);
+    font-weight: bold;
+    word-spacing:0.2vw;
+    padding-left: 0.4vw;
+
+}
+
+.detail-content{
+
+    /* border: 2px solid black; */
+    height: 6vh;
+    width: 15vw;
+    font-size: 1.2vh;
+    padding-top: 0.9vh;
+    font-family: 'Bebas Neue';
+    color: grey;
+    font-weight: bold;
+    word-spacing:0.2vw;
+    padding-left: 0.4vw;
+
+}
+
+.detail-card img{
+
+    height: 17vh;
+    width: 15vw;
+    border-radius: 10%;
+
+}

@@ -1,0 +1,9 @@
+.logo{
+    height: 7vh;
+    width: 3.5vw;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
