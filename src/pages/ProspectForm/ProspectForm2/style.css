@@ -1,0 +1,24 @@
+.radio-row, .birthday-dropdown, .height-weight-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.prospectform .form-col-2{
+  margin-left: 5vw;
+}
+
+.prospectform .form-col-1 .non-nego-acts{
+ display: flex;
+ flex-direction: column;
+}
+
+.prospectform .form-col-1 .non-nego-acts .acts-row{
+  display: flex;
+  flex-direction: row;
+}
+
+.btn-row{
+  display: flex;
+  flex-direction: row;
+  margin: 2vw auto;
+}

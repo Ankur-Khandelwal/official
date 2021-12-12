@@ -1,6 +1,6 @@
 .blue-btn{
-  display: inline-block;
-  box-sizing: border-box;
+  /* display: inline-block;
+  box-sizing: border-box; */
   background: linear-gradient(
     270.55deg,
     rgba(13, 17, 60, 0.87) 0.5%,
@@ -15,4 +15,5 @@
   font-weight: 600;
   max-width: max-content;
   text-align: center;
+  letter-spacing: 0.1vw;
 }

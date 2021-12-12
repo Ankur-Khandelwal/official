@@ -1,16 +1,16 @@
-import ProspectFormLayout from '../Layout';
-import DropdownMenu from '../../../components/DropdownMenu';
-import InputWithDropDown from '../../../components/UI/InputWithDropDown';
-import InputBox from '../../../components/InputBox';
-import RadioInput from '../../../components/RadioInput';
-import InputLabel from '../../../components/UI/InputLabel.jsx';
-import FileInput from '../../../components/UI/FileInput';
-import SelectBox from '../../../components/UI/SelectBox';
-import GreenButton from '../../../components/UI/GreenButton';
+import ProspectFormLayout from '../ProspectForm/Layout';
+import DropdownMenu from '../../components/DropdownMenu';
+import InputWithDropDown from '../../components/UI/InputWithDropDown';
+import InputBox from '../../components/InputBox';
+import RadioInput from '../../components/RadioInput';
+import InputLabel from '../../components/UI/InputLabel.jsx';
+import FileInput from '../../components/UI/FileInput';
+import SelectBox from '../../components/UI/SelectBox';
+import GreenButton from '../../components/UI/GreenButton';
 import './style.css';
 import { useState } from 'react';
 
-const ProspectForm1 = () => {
+const OwnProfile = () => {
 
   const [hobbies, setHobbies] = useState([]);
 
@@ -33,7 +33,7 @@ const ProspectForm1 = () => {
   }
 
   return (
-    <ProspectFormLayout photo="girl">
+    <ProspectFormLayout photo="boy">
       <div className="form-col-1">
         <h5>Basic Details</h5>
         <InputBox type="text" placeholder="Enter your full name here" label="Name"/>
@@ -172,4 +172,4 @@ const ProspectForm1 = () => {
   );
 }
 
-export default ProspectForm1;
+export default OwnProfile;

@@ -1,0 +1,16 @@
+.select-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9vw;
+  height: 3vw;
+  width: max-content;
+  padding: 1vw;
+  outline: none;
+  background: #ffffff;
+  border: none;
+  box-sizing: border-box;
+  backdrop-filter: blur(24px);
+  border-radius: 0.9vw;
+  margin: 0.3vw;
+}

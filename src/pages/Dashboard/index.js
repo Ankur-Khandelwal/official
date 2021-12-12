@@ -1,15 +1,15 @@
 import {useState, useEffect} from 'react';
 import NotificationsRoundedIcon from '@mui/icons-material/NotificationsRounded';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
-import DownloadRoundedIcon from '@mui/icons-material/DownloadRounded';
+import PersonRoundedIcon from '@mui/icons-material/PersonRounded';
 import littleImage from '../../Images/AdobeStock_247974953.png';
-import {NavLink} from 'react-router-dom';
-import Logo from '../../components/UI/Logo';
 import DatingContest from './Contests/DatingContest';
 import FinishedContest from './Contests/FinishedContest';
 import UpcomingContest from './Contests/UpcomingContest';
 import ProfileCard from '../../components/ProfileCard';
 import Drawer from '../../components/Drawer';
+import BlueRoundIcon from '../../components/UI/BlueRoundIcon';
+import RedRoundIcon from '../../components/UI/RedRoundIcon';
 import './style.css';
 
 const Dashboard1 = () => {
@@ -49,9 +49,9 @@ const Dashboard1 = () => {
     <Drawer/>
      <div className="main-dash">
         <div className="small-options">
-          <div className="op1"><DownloadRoundedIcon/></div>
-          <div className="op2"><EmailRoundedIcon/></div>
-          <div className="op3"><NotificationsRoundedIcon/></div>
+          <BlueRoundIcon><PersonRoundedIcon/></BlueRoundIcon>
+          <BlueRoundIcon><EmailRoundedIcon/></BlueRoundIcon>
+          <RedRoundIcon><NotificationsRoundedIcon/></RedRoundIcon>
         </div>
         <div className="header-cards">
           <div className="card">

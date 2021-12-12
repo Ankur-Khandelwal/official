@@ -1,0 +1,10 @@
+.input-label{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.8vw;
+  color: #2c2929;
+  letter-spacing: 0.01vw;
+  transform: translateX(2%);
+  margin: 0;
+}

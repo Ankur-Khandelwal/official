@@ -1,3 +1,7 @@
+.home-page {
+  position: relative;
+}
+
 .landing {
   display: flex;
   flex-direction: row;
@@ -145,22 +149,18 @@
   align-items: center;
   text-align: center;
   padding: 3vw;
+  margin-bottom: 2vw;
 }
 
-.main {
+.landing6-image {
   position: relative;
+  width: 100%;
+  height: 15vw;
 }
 
-.landing6-image .main img {
-  width: 15vw;
-  border-radius: 220px;
-  border: 1.5px solid red;
+.landing6-image img {
+  width: 25vw;
   padding: 5px;
-  position: absolute;
-}
-
-.landing6-image .main .img1 {
-  right: -4vw;
 }
 
 #kids {
@@ -221,6 +221,7 @@
 .landing4-cards {
   display: flex;
   flex-direction: column;
+  margin: 1vw auto;
 }
 
 .l4-card {
@@ -251,7 +252,7 @@
   color: #ffffff;
 }
 
-.l4-card:hover .l4-card-icon {
+.l4-card:hover .blue-round-icon {
   color: #ffffff;
   background: linear-gradient(176.12deg, #e51615 -9.13%, #fe425c 122%);
   box-shadow: 0px 0px 124px rgba(229, 22, 21, 0.62);
@@ -292,4 +293,200 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+
+.landing5-image {
+  position: relative;
+}
+
+.landing5-image .boy-image {
+  transform: translateX(65%);
+  width: 25vw;
+}
+.landing5-image .blue-card-image {
+  position: absolute;
+  width: 35vw;
+  left: -8vw;
+  z-index: -1;
+}
+
+.landing7 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.landing8 {
+  justify-content: center;
+}
+
+.landing8 .landing2-image {
+  margin-right: 6vw;
+}
+
+.landing9 {
+  flex-direction: row-reverse;
+}
+
+.landing9 .landing2-image img {
+  width: 30vw;
+  margin-left: 6vw;
+}
+
+.landing11 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  padding: 2vw 13vw;
+}
+
+.landing11 .head-text {
+  width: 35vw;
+}
+
+.landing11 .head-text .p1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 2.5vw;
+  color: #131742;
+  margin: 0;
+}
+
+.landing11 .head-text .p2 {
+  font-family: Poppins;
+  font-size: 1vw;
+  color: #666666;
+}
+
+.landing11 .input-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5vw;
+  color: #131742;
+  margin: 0;
+  line-height: 4vw;
+}
+
+.landing11 .input-text input {
+  background-color: transparent;
+  border: 0 solid;
+  border-bottom: 0.1vw solid #131742;
+  color: #e51615;
+  padding-left: 0.5vw;
+  padding-bottom: 0.3vw;
+  font-family: Poppins;
+  font-size: 1.5vw;
+  width: 11vw;
+  text-align: center;
+}
+
+.landing11 .input-text input:focus {
+  outline: none;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  overflow: hidden;
+  padding: 2vw;
+  margin-top: 5vw;
+}
+
+.footer .bg-blur {
+  position: absolute;
+  background: linear-gradient(270.46deg, #e51615 0.42%, #fe425c 151.11%);
+  opacity: 0.3;
+  box-shadow: 0px 46px 170px rgba(235, 48, 34, 0.37);
+  filter: blur(357px);
+  border-radius: 3vw;
+  height: 50vw;
+  width: 90vw;
+  top: 11vw;
+  left: -60vw;
+  z-index: -1;
+}
+
+.footer .meta {
+  display: flex;
+  flex-direction: column;
+  max-width: 25vw;
+}
+
+.footer .meta .selecter-logo img {
+  width: 10vw;
+}
+
+.footer .meta .app-d-links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer .meta .app-d-links .white-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border: 1px solid #e9e9e9;
+  box-sizing: border-box;
+  border-radius: 0.8vw;
+  font-size: 0.8vw;
+  font-family: Poppins;
+  color: #131742;
+  font-weight: 700;
+  letter-spacing: 0.05vw;
+  padding: 0.3vw 0.7vw;
+  margin-right: 1vw;
+}
+
+.footer .links {
+  display: flex;
+  flex-direction: row;
+  margin: auto 2vw;
+}
+
+.footer .links .col {
+  display: flex;
+  flex-direction: column;
+  padding: 0 4vw;
+}
+
+.footer .links .col .options p {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.bottom-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.bottom-image .glass-card {
+  position: absolute;
+  width: 10vw;
+}
+
+.bottom-image .boy {
+  position: absolute;
+  width: 28vw;
+  bottom: 0;
+  right: 0;
+}
+
+.bottom-image .graph {
+  position: absolute;
+  width: 20vw;
+  bottom: 16vw;
+  right: 15vw;
 }

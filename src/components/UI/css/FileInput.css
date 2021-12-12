@@ -1,0 +1,15 @@
+.file-input label{
+  width: 20vw;
+  height: 3vw;
+  padding: 0.5vw;
+  outline: none;
+  background: #ffffff;
+  border: 1px solid #f5f5f5;
+  box-sizing: border-box;
+  backdrop-filter: blur(24px);
+  border-radius: 0.9vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1vw;
+}

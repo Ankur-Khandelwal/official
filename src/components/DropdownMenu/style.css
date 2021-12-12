@@ -1,0 +1,38 @@
+.dropdown-menu{
+  margin: 1vw 0;
+  margin-right: 1vw;
+}
+
+.dropdown-menu select {
+  padding: 0.5vw;
+  font-size: 1.1vw;
+  outline: none;
+  width: 20vw;
+  height: 3vw;
+  background: #ffffff;
+  border: 1px solid #f5f5f5;
+  box-sizing: border-box;
+  border-radius: 0.9vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  color: #b0b0b0;
+  letter-spacing: 0.02vw;
+}
+
+
+.dropdown-menu select option {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1vw;
+  color: #4D4D4D;
+}
+
+.dropdown-menu select option:hover {
+  background: linear-gradient(270.55deg, #131742 0.5%, #34375a 99.55%);
+  box-shadow: 0px 8px 32px rgba(19, 23, 66, 0.08);
+  border-radius: 0px 5px 5px 0px;
+  color: #ffffff;
+}

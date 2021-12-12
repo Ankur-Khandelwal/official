@@ -1,0 +1,35 @@
+.i-box * {
+  margin: 0;
+  padding: 0;
+}
+
+.i-box{
+  margin: 1vw auto;
+}
+
+.i-box input[type='text'],
+.i-box input[type='email'],
+.i-box input[type='date'],
+.i-box input[type='number'],
+.i-box input[type='url'],
+.i-box input[type='file'],
+.i-box input[type='password'] {
+  width: 20vw;
+  height: 3vw;
+  padding: 0.5vw;
+  outline: none;
+  background: #ffffff;
+  border: 1px solid #f5f5f5;
+  box-sizing: border-box;
+  backdrop-filter: blur(24px);
+  border-radius: 0.9vw;
+}
+
+.i-box ::placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8vw;
+  color: #b0b0b0d5;
+  letter-spacing: 0.02vw;
+}
