@@ -9,6 +9,8 @@ import Dashboard1 from "./pages/Dashboard";
 import ProspectForm1 from "./pages/ProspectForm/ProspectForm1";
 import ProspectForm2 from "./pages/ProspectForm/ProspectForm2";
 import OwnProfile from "./pages/OwnProfile";
+import BigBoard from "./pages/BigBoard";
+import PhasesAlternate from "./pages/PhasesAlternate";
 
 const theme = createMuiTheme({
   overrides: {
@@ -37,6 +39,8 @@ function App() {
               <Route exact path="/prospectform1" element={<ProspectForm1 />} />
               <Route exact path="/prospectform2" element={<ProspectForm2 />} />
               <Route exact path="/ownprofile" element={<OwnProfile />} />
+              <Route exact path="/bigboard" element={<BigBoard />} />
+              <Route exact path="/phasesalternate" element={<PhasesAlternate />} />
             </Routes>
       </BrowserRouter>
     </ThemeProvider>

@@ -1,0 +1,18 @@
+.phasesalternate-main {
+  margin-left: 17vw;
+}
+
+.phasesalternate-main .head-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vw;
+  color: rgba(22, 26, 68, 1);
+  letter-spacing: 0.1vw;
+}
+
+.phase-card {
+  background: linear-gradient(115.09deg, #fbfbfb 4.35%, #f7f7f7 98.4%);
+  box-shadow: 0px 33px 100px rgba(8, 11, 37, 0.05);
+  border-radius: 1.8vw;
+}

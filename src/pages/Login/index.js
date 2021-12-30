@@ -7,8 +7,45 @@ import circlepic1 from "../../Images/circlepic1.png";
 import circlepic2 from "../../Images/circlepic2.png";
 import circlepic3 from "../../Images/circlepic3.png";
 import circlepic4 from "../../Images/circlepic4.png";
+import React, { useState } from "react";
+import { useNavigate } from 'react-router-dom';
+import axios from 'axios';
 
 const Login = () => {
+
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [remember, setRemember] = useState(false);
+  const [errorMsg, setErrorMsg] = useState('');
+  const navigate = useNavigate();
+
+  function submitLogin(e) {
+    e.preventDefault();
+    const data = { email, password };
+    console.log(data);
+    const url = 'localhost:5000/login';
+    axios
+      .post(url, data)
+      .then((res) => {
+        if (res.status === 200) {
+          window.localStorage.setItem(
+            'loggedInUser',
+            JSON.stringify(res.data.user)
+          );
+          navigate('/dashboard');
+          setEmail('');
+          setPassword('');
+        } else {
+          setErrorMsg(res.message);
+        }
+        console.log(res.data.user);
+      })
+      .catch((error) => {
+        console.log(error);
+        setErrorMsg('Authentication failed');
+      });
+  }
+
   return (
     <div className="container1">
       <Logo/>
@@ -31,19 +68,20 @@ const Login = () => {
 
         <div className="login-box">
           <p className="login-header">LOGIN</p>
-          <input className="input-box" placeholder="Enter your email address"/>
-          <input className="input-box" placeholder="Enter your password"/>
+          <p style={{color: "red"}}>{errorMsg}</p>
+          <input className="input-box" placeholder="Enter your email address" value={email} onChange={(e)=>setEmail(e.target.value)}/>
+          <input className="input-box" placeholder="Enter your password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
           <div className="password-processes">
             <div className="remember-me">
-              <input type="checkbox" id="remember"/>
+              <input type="checkbox" id="remember" onClick={()=>setRemember(!remember)}/>
               <label for="remember"> Remember me</label>
             </div>
             <Link to="/forgot-password" className="forgot-password">Forgot password?</Link>
           </div>
-          <div className="input-box main-sign-in-btn">SIGN IN</div>
+          <div className="input-box main-sign-in-btn" onClick={(e)=>submitLogin(e)}>SIGN IN</div>
           <div className="input-box sign-in-btn"><i class="fab fa-google"></i>&nbsp;&nbsp;Sign in with Google</div>
           <div className="input-box sign-in-btn"><i class="fab fa-facebook"></i>&nbsp;&nbsp;Sign in with Facebook</div>
-          <div className="input-box sign-in-btn">Sign in with Twitter</div>
+          <div className="input-box sign-in-btn"><i class="fab fa-twitter"></i>&nbsp;&nbsp;Sign in with Twitter</div>
           <div className="already"> Not registered? <Link to="/registration1">Create an Account</Link> </div>
         </div>
       </div>

@@ -12,16 +12,17 @@ const ProspectFormLayout = (props) => {
   const {children} = props;
   const renderImage = () => {
     if (props.photo=="boy") {
-      return <img className="bronze-girl" src={coolBoy} alt="coolBoy" />;
+      return <img className="cool-boy" src={coolBoy} alt="coolBoy" />;
     } else {
       return <img className="bronze-girl" src={bronzeGirl} alt="bronzeGirl" />;
     }
   }
   return (
+    <div style={{display: "flex", flexDirection: "row"}}>
+    <Drawer/>
     <div className="prospectform">
       {renderImage()}
       {/* <img className="bg-ellipse-big" src={bgEllipseBig} alt="bg-ellipse-big"/> */}
-      <Drawer/>
       <div className="main-form-side">
         <div className="top-bar">
           <BlueButton text="BACK"/>
@@ -32,6 +33,7 @@ const ProspectFormLayout = (props) => {
             {children}
         </div>
       </div>
+    </div>
     </div>
   );
 }

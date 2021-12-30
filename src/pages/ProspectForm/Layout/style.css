@@ -6,6 +6,8 @@
   background: linear-gradient(180deg, #f8f8f8 0%, #eeeeee 100%);
   font-family: Poppins;
   letter-spacing: 0.01vw;
+  width: 100vw;
+  z-index: 10;
 }
 
 .main-form-side {
@@ -48,10 +50,17 @@
 }
 
 .bronze-girl {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   right: 0;
   height: 80vh;
+}
+
+.cool-boy{
+  position: fixed;
+  bottom: 0;
+  right: -5vw;
+  height: 75vh;
 }
 
 .main-form {

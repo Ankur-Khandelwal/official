@@ -1,0 +1,217 @@
+.main-board {
+  margin-left: 17vw;
+}
+
+.phases-bar {
+  display: flex;
+  flex-direction: row;
+  border-radius: 1vw;
+}
+
+.phases-bar * {
+  margin: 0;
+  padding: 0;
+}
+
+.phases-bar .phase {
+  background: linear-gradient(115.09deg, #fbfbfb 4.35%, #f7f7f7 98.4%);
+  padding: 0.8vw 1.7vw;
+  font-size: 1.3vw;
+  color: rgba(158, 157, 157, 0.705);
+  font-family: Bebas Neue;
+  letter-spacing: 0.1vw;
+  font-weight: lighter;
+  object-fit: contain;
+}
+
+.phases-bar .o-phase {
+  background: linear-gradient(
+    140.55deg,
+    #e51615 1.7%,
+    #e51615 44%,
+    #fe425c 103.46%
+  );
+  color: white;
+}
+
+.phases-bar .c-phase {
+  background: linear-gradient(270.52deg, #131742 0.47%, #1d2362 120.33%);
+  color: white;
+}
+
+.big-board .main-board .head-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.3vw;
+  color: rgba(22, 26, 68, 1);
+  letter-spacing: 0.1vw;
+}
+
+#like-phase-tab {
+  border-radius: 0.5vw 0 0 0.5vw;
+}
+
+#final-phase-tab {
+  border-radius: 0 0.5vw 0.5vw 0;
+}
+
+.prospect-pool-header {
+  background: #ffffff;
+  border-radius: 1vw 1vw 0px 0px;
+  color: #131742;
+  font-weight: bold;
+  font-size: 1vw;
+  letter-spacing: 0.02vw;
+  font-family: Poppins;
+  padding: 1vw;
+}
+
+.prospect-pool .prospects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.current-phase-header,
+.highlights-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #131742;
+  font-weight: bold;
+  font-size: 1vw;
+  letter-spacing: 0.1vw;
+  font-family: Poppins;
+}
+
+.current-phase-header #c-phase-h2,
+.highlights-header #higlights-head-h2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.current-phase-header svg,
+.highlights-header svg {
+  font-size: 1.5vw;
+}
+
+.current-phase-card {
+  display: flex;
+  flex-direction: row;
+  border-radius: 1.5vw;
+  background: linear-gradient(
+    270.55deg,
+    rgba(13, 17, 60, 0.87) 0.5%,
+    rgba(19, 22, 62, 0.88) 99.55%
+  );
+  box-shadow: 0px 33px 100px rgba(22, 26, 68, 0.13);
+}
+
+.current-phase-card iframe{
+  border-radius: 0 1.5vw 1.5vw 0;
+}
+
+.current-phase-card .current-phase-data {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5vw;
+  font-family: Poppins;
+  color: white;
+  font-size: 1vw;
+  max-width: 17vw;
+  justify-content: space-between;
+  font-weight: 600;
+  letter-spacing: 0.05vw;
+}
+
+.current-phase-card .current-phase-data .cpd-head {
+  display: flex;
+  flex-direction: row;
+}
+
+.current-phase-card .current-phase-data .cpd-head .cpd-head-l {
+  width: 2vw;
+  height: 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: linear-gradient(176.12deg, #e51615 -9.13%, #fe425c 122%);
+  box-shadow: 0px 0px 124px #ffe3e1;
+}
+
+.current-phase-card .current-phase-data .cpd-points {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 0.9vw;
+}
+
+.current-phase-card .current-phase-data .cpd-points svg {
+  font-size: 1vw;
+  font-weight: bold;
+}
+
+.current-phase-card .current-phase-data #cpd-points-header{
+  color: #f7f7f7b2;
+  font-weight: normal;
+}
+
+.bigboard-data {
+  display: flex;
+  flex-direction: column;
+}
+
+.bbd-row1,
+.bbd-row2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.highlights-cards{
+  display: flex;
+  flex-direction: row;
+}
+
+.highlights-cards .h-card{
+  display: flex;
+  flex-direction: column;
+  width: 18vw;
+}
+
+.highlights-cards .h-card img{
+  border-radius: 1.5vw 1.5vw 0 0;
+}
+
+.highlights-cards .h-card-text{
+  font-family: 'Poppins';
+  letter-spacing: 0.02vw;
+  padding: 1vw;
+}
+
+.highlights-cards .h-card-text .hct-t1{
+  color: rgb(158, 154, 154);
+  font-weight: 500;
+  font-size: 0.85vw;
+}
+
+.highlights-cards .h-card-text .hct-t2{
+  font-size: 1.2vw;
+  font-weight: 700;
+}
+
+.highlights-cards .h-card-text .hct-t3{
+  font-size: 0.6vw;
+  color: rgb(158, 154, 154);
+  font-weight: 500;
+}
+
+.big-board-iframe{
+  width: 15.5vw;
+  height: 15.5vw;
+}

@@ -1,24 +1,92 @@
-.radio-row, .birthday-dropdown, .height-weight-row{
+.radio-row,
+.birthday-dropdown,
+.height-weight-row {
   display: flex;
   flex-direction: row;
 }
 
-.prospectform .form-col-2{
+.prospectform .form-col-2 {
   margin-left: 5vw;
 }
 
-.prospectform .form-col-1 .non-nego-acts{
- display: flex;
- flex-direction: column;
+.prospectform .form-col-1 .non-nego-acts {
+  display: flex;
+  flex-direction: column;
 }
 
-.prospectform .form-col-1 .non-nego-acts .acts-row{
+.prospectform .form-col-1 .non-nego-acts .acts-row {
   display: flex;
   flex-direction: row;
 }
 
-.btn-row{
+.btn-row {
   display: flex;
   flex-direction: row;
   margin: 2vw auto;
+}
+
+.prospectform textarea, .prospectform .agreement {
+  width: 20vw;
+  height: 8vw;
+  padding: 0.5vw;
+  outline: none;
+  background: #ffffff;
+  border: 1px solid #f5f5f5;
+  box-sizing: border-box;
+  backdrop-filter: blur(24px);
+  border-radius: 0.9vw;
+  resize: none;
+}
+
+.prospectform .social-media{
+  display: flex;
+  flex-direction: column;
+}
+
+.prospectform .agreement{
+  width: 21vw;
+  height: 15vw;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8vw;
+  color: #b0b0b0d5;
+  letter-spacing: 0.02vw;
+}
+
+textarea::-webkit-input-placeholder{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8vw;
+  color: #b0b0b0d5;
+  letter-spacing: 0.02vw;
+}
+
+textarea::-moz-placeholder {  
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8vw;
+  color: #b0b0b0d5;
+  letter-spacing: 0.02vw;
+}
+
+
+textarea:-ms-input-placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8vw;
+  color: #b0b0b0d5;
+  letter-spacing: 0.02vw;
+}
+
+textarea::placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.8vw;
+  color: #b0b0b0d5;
+  letter-spacing: 0.02vw;
 }

@@ -1,0 +1,48 @@
+.image-with-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 0.03vw;
+  color: #131742;
+}
+
+.image-with-name *{
+  padding: 0;
+  margin: 0;
+}
+
+.image-with-name img {
+  width: 12vw;
+}
+
+.name-rating-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(115.09deg, #fbfbfb 4.35%, #f7f7f7 98.4%);
+  box-shadow: 0px 33px 100px rgba(8, 11, 37, 0.05);
+  border-radius: 20px;
+  width: 12vw;
+  font-size: 1vw;
+  padding: 0.8vw 1vw;
+}
+
+.name-rating-box .rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  font-family: Bebas Neue;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.name-rating-box .rating svg {
+  font-size: 0.5vw;
+  color: red;
+}

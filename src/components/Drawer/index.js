@@ -13,16 +13,16 @@ const Drawer = () => {
   return (
     <div className="drawer">
        <Logo/>
-       <iframe width="200" height="130" src="https://www.youtube.com/embed/9DGb8thJppw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen modestbranding="1"></iframe>
+       <iframe src="https://www.youtube.com/embed/9DGb8thJppw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen modestbranding="1"></iframe>
        <div className="drawer-options">
-         <p><VideoCameraFrontOutlinedIcon style={{fontSize: '20px'}}/><span>HOW IT WORKS</span></p>
-         <p><InsertChartOutlinedRoundedIcon style={{fontSize: '20px'}}/><span>POOL</span></p>
-         <p><DashboardOutlinedIcon style={{fontSize: '20px'}}/><span>BIG BOARD</span></p>
-         <p><PeopleAltOutlinedIcon style={{fontSize: '20px'}}/> <span>SOCIAL</span></p>
-         <p><MessageOutlinedIcon style={{fontSize: '20px'}}/><span>COMMUNICATE</span></p>
-         <p><CloudUploadOutlinedIcon style={{fontSize: '20px'}} /><span>UPLOADS</span></p>
-         <p><CallOutlinedIcon style={{fontSize: '20px'}}/><span>CONTACT</span></p>
-         <p><GavelOutlinedIcon style={{fontSize: '20px'}}/><span>LEGAL</span></p>
+         <p><VideoCameraFrontOutlinedIcon /><span>HOW IT WORKS</span></p>
+         <p><InsertChartOutlinedRoundedIcon /><span>POOL</span></p>
+         <p><DashboardOutlinedIcon /><span>BIG BOARD</span></p>
+         <p><PeopleAltOutlinedIcon /> <span>SOCIAL</span></p>
+         <p><MessageOutlinedIcon /><span>COMMUNICATE</span></p>
+         <p><CloudUploadOutlinedIcon  /><span>UPLOADS</span></p>
+         <p><CallOutlinedIcon /><span>CONTACT</span></p>
+         <p><GavelOutlinedIcon/><span>LEGAL</span></p>
        </div>
     </div>
   );
