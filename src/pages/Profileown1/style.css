@@ -1,0 +1,193 @@
+
+.ProfileOwn1-After-Drawer{
+    display: flex;
+    margin-left: 230px;
+    height: 100vh;
+    width: 80vw;
+    /* font-family: 'Bebas Neue'; */
+    
+}
+
+.ProfileOwn1-options{
+    height: 9vh;
+    width: 6vw;
+   /* border: 2px solid black; */
+}
+
+.ProfileOwn1-box{
+    position: relative;
+    height: 8vh;
+    width: 18vh;
+    left:1.5vw;
+    padding-top: 2vh;
+    
+}
+
+.ProfileOwn1-box-icon{
+
+}
+.ProfileOwn1-boxhead{
+
+    font-size: 1.5vh;
+    color: gray;
+
+}
+.ProfileOwn1-boxcontent{
+    font-size: 2.5vh;
+    color: rgb(20, 20, 67);
+    font-family: 'Bebas Neue';
+
+}
+
+.ProfileOwn1-image1{
+    position: absolute;
+    height: 90vh;
+    width: 40vw;
+    top: 8vh;
+    left: 32vw;
+    z-index: -1;
+}
+
+.ProfileOwn1-image2{
+    height: 22vh;
+    width: 9vw;
+    border-radius: 3vh;
+    position: absolute;
+    top: 74vh;
+    left: 20vw;
+}
+.ProfileOwn1-image3{
+    height: 22vh;
+    width: 9vw;
+    border-radius: 3vh;
+    position: absolute;
+    top: 74vh;
+    left: 32vw;
+    
+}
+
+.ProfileOwn1-data-logo{
+    display: flex;
+
+}
+.ProfileOwn1-data-logo p{
+    font-size: 3.5vh;
+    font-weight: 600;
+    color: rgb(20, 20, 67);
+    margin-top: 1vh;
+    margin-left: 0vw;
+    font-family: Poppins;
+    letter-spacing: 0.15vw;
+}
+
+.ProfileOwn1-data-head1 p{
+
+    font-size: 15vh;
+    color: red;
+    /* font-family: Bebas Neue; */
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    margin-top: -10vh;
+    margin-bottom: -7vh;
+    font-weight: 400;
+    
+
+}
+.ProfileOwn1-data-head1 span{
+
+    font-size: 8vh;
+    color: rgb(20, 20, 67);
+    /* font-family: Bebas Neue; */
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    padding-top: -4vh;
+    font-weight: 400;
+
+}
+
+.ProfileOwn1-data-content-comma{
+
+    color: red;
+    font-size: 4vh;
+    font-weight: bolder;
+    display: inline;
+    margin-top: -2vh;
+    /* margin-right: 0.5vw; */
+
+}
+.ProfileOwn1-data-content{
+    
+    margin-top: -3vh;
+    color: rgb(20, 20, 67);
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 1.6vh;
+}
+
+.ProfileOwn1-right-card{
+    /* border: 2px solid black; */
+    height: 14vw;
+    width: 17vw;
+    position: absolute;
+    top:24.5vw;
+    left:80vw;
+    border-radius: 1.1vw;
+}
+
+.ProfileOwn1-right-card-image4{
+    /* border: 2px solid black; */
+    height: 13vw;
+    width: 12vw;
+    margin-top: 1vw;
+}
+
+.ProfileOwn1-right-card-redbutton{
+    /* border: 2px solid black; */
+    height : 2vw;
+    width: 7vw;
+    position: absolute;
+    top:12vw;
+    left:10vw;
+    background-color: red;
+    border-radius: 1.1vw 0vw;
+    
+}
+
+.ProfileOwn1-right-card-redbutton-content{
+    color: white;
+    font-family: "Poppins";
+    font-size: 0.7vw;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 0.4vw;
+}
+
+.ProfileOwn1-right-card-bluebox{
+    /* border: 2px solid black; */
+    height : 3.1vw;
+    width: 7vw;
+    position: absolute;
+    top:0vw;
+    border-radius: 0.5vw;
+    left:9.2vw;
+    background-color: rgb(20, 20, 67);
+    color: white;
+}
+
+.ProfileOwn1-right-card-bluebox svg{
+    font-size: 1.2rem;
+}
+
+.ProfileOwn1-right-card-image5{
+
+    /* border: 2px solid black; */
+    height : 5vw;
+    width: 5vw;
+    position: absolute;
+    top:6vw;
+    left:10vw;
+}

@@ -1,0 +1,215 @@
+.Session-AfterDrawer{
+
+    display: flex;
+    margin-left: 15vw;
+    /* border: 0px solid black; */
+    width : 65%;
+
+
+}
+
+.Session-AfterResizableDrawer{
+    /* border: 2px solid black; */
+    margin-top: 6vw;
+}
+
+.Session-img1{
+    /* border: 2px solid black; */
+    width : 100%;
+    border-radius:5vh;
+    
+}
+.inSession{
+    font-family: "Poppins";
+    font-size: 3vh;
+    font-weight: 600;
+    color: #131742;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.Session-Smallcard-container{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+    /* height: 10vw; */
+}
+
+.Session-Smallcard1{
+    height: 6vw;
+    width:30%; 
+    /* border: 2px solid black; */
+    border-radius: 3vh;
+    display: flex;
+}
+
+.Session-Smallcard-content{
+    /* border: 2px solid black; */
+    border-radius: 3vh;
+    height: 6vw;
+    width:60%;
+}
+.Session-Smallcard-image{
+
+    /* border: 2px solid black; */
+    border-radius: 3vh;
+    height: 6vw;
+    width:40%;
+
+}
+.Session-Smallcard-content-head1{
+
+    font-family: "Poppins";
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: 600;
+    display: flex;
+
+}
+.Session-Smallcard-content-head2{
+
+    font-family: "Poppins";
+    font-size: 50%;
+    font-weight: 500;
+    color: gray;
+    margin-left: 5%;
+    
+
+}
+
+.Session-chatbox-container{
+    width: 100%;
+    border: 2px solid black;
+    height: 30vw;
+    margin-top: 5vh;
+}
+
+
+
+
+.Session-rightPart{
+    width: 18.6vw;
+    /* border: 2px solid black; */
+    position: absolute;
+    left : 80vw;
+    top : 13vh;
+    
+}
+
+.Session-rightPart-card{
+    /* border: 2px solid red; */
+    height: 18vw;
+    border-radius: 4vh;
+    width: 18.6vw;
+    margin-bottom: 3vh;
+}
+
+.Session-rightPart-card-image{
+
+    /* border: 2px solid rgb(24, 164, 22); */
+    height: 11vw;
+    border-radius: 4vh 4vh 0vh 0vh;
+    width: 18.2w;
+
+}
+
+.Session-rightPart-card-content{
+
+}
+
+.Session-rightPart-card-content-head1{
+
+    font-family: "Poppins";
+    font-size: 1.7vh;
+    font-weight: 600;
+    color:gray;
+    letter-spacing: 0.15vw;
+    margin-top: 1.5vh;
+    margin-left: 1vw;
+
+}
+
+.Session-rightPart-card-content-head2{
+
+    font-family: "Poppins";
+    font-size: 2vh;
+    font-weight: 600;
+    margin-left: 1vw;
+    margin-top: -1.5vh;
+}
+
+.Session-rightPart-card-content-head3{
+
+    font-family: "Poppins";
+    font-size: 1.3vh;
+    font-weight: 500;
+    color: grey;
+    margin-left: 1vw;
+    margin-top: -1.5vh;
+}
+
+.Session-QuickPoll{
+
+    font-family: "Poppins";
+    font-size: 3vh;
+    font-weight: 600;
+    color: #131742;
+    /* border: 2px solid black; */
+    height: 7vh;
+    letter-spacing: 0.1vw;
+    padding-top: 1vh;
+    
+}
+.Session-QuickPoll span{
+    padding-left: 5vw;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+.Session-rightPart-card-small{
+
+    /* border: 2px solid red; */
+    height: 11vw;
+    /* border-radius: 4vh; */
+    width: 18.6vw;
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+
+}
+
+.Session-rightPart-card-small-content{
+
+}
+
+.Session-rightPart-card-small-content-head1{
+
+    font-family: "Poppins";
+    font-size: 1.7vh;
+    font-weight: 600;
+    color:gray;
+    letter-spacing: 0.15vw;
+    margin-top: 1.5vh;
+    margin-left: 1vw;
+
+}
+
+.Session-rightPart-card-small-content-head2{
+
+    font-family: "Poppins";
+    font-size: 2vh;
+    font-weight: 600;
+    margin-left: 1vw;
+    margin-top: -1.5vh;
+}
+
+.Session-rightPart-card-small-content-head3{
+
+    font-family: "Poppins";
+    font-size: 1.3vh;
+    font-weight: 500;
+    color: grey;
+    margin-left: 1vw;
+    margin-top: -1.5vh;
+}

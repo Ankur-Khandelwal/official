@@ -1,0 +1,281 @@
+.SP-AfterDrawer{
+
+    display: flex;
+    margin-left: 15vw;
+    /* border: 0px solid black; */
+    width : 65%;
+
+
+}
+
+.SP-AfterResizableDrawer{
+    /* border: 2px solid black; */
+    margin-top: 6vw;
+}
+
+
+.inSession{
+    font-family: "Poppins";
+    font-size: 3vh;
+    font-weight: 600;
+    color: #131742;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+.SP-Smallcard-container{
+    /* border: 2px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vw;
+    height: 15vw;
+    flex-wrap: wrap;
+}
+
+.SP-Smallcard-image{
+
+    border: 2px solid black;
+    border-radius: 3vh;
+    height: 6vw;
+    width:40%;
+
+}
+
+
+.SP-chatbox-container{
+    width: 100%;
+    border: 2px solid black;
+    height: 60vw;
+    margin-top: 5vh;
+}
+
+
+
+
+.SP-rightPart{
+    width: 18.6vw;
+    /* border: 2px solid black; */
+    position: absolute;
+    left : 80vw;
+    top : 8vw;
+    
+}
+
+.SP-rightPart-card{
+    /* border: 2px solid red; */
+    height: 100%;
+    /* border-radius: 4vh 4vh ; */
+    width: 18.6vw;
+    margin-bottom: 3vw;
+    
+}
+
+.SP-rightPart-card-image{
+
+    /* border: 2px solid rgb(24, 164, 22); */
+    height: 100%;
+    border-radius: 4vh;
+    width: 100%;
+
+}
+
+.SP-rightPart-Lists{
+    height: 100%;
+    width: 100%;
+    /* border: 2px solid blue; */
+}
+
+
+
+
+
+
+
+
+.SP-header{
+    border: 2px solid black;
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+.SP-header1{
+    border: 2px solid black;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SP-middle{
+    border: 2px solid black;
+    height: 24%;
+    width: 100%;
+    /* background-color: #131742; */
+    background: linear-gradient(270.52deg, #131742 0.47%, #1d2362 120.33%);
+  box-shadow: 0px 8px 32px rgba(19, 23, 66, 0.22);
+  display: flex;
+}
+.SP-middle-image img{
+    border: 2px solid rgb(31, 229, 31);
+    width:13vw;
+    height:13vw;
+    margin-left:5vw;
+    margin-top: 1.2vw;
+}
+.SP-middle-card1{
+    border: 2px solid rgb(31, 229, 31);
+    width:13vw;
+    height:13vw;
+}
+.SP-List{
+    border: 2px solid black;
+    height: 66%;
+    width: 100%;
+}
+.SP-lists-content{
+    /* border: 2px solid black; */
+    height: 15%;
+    width: 100%;
+    display: flex;
+}
+.SP-lists-content-num{
+    /* border: 2px solid black; */
+    width: 10%;
+    font-family: "Bebas Neue";
+    font-size: 1.5vw;
+    font-weight: 500;
+    color:#131742;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SP-lists-content-data{
+    /* border: 2px solid black; */
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.SP-lists-content-data-img{
+    border-radius: 50%;
+    height: 3.5vw;
+    width: 3.5vw;
+}
+.SP-lists-content-data-Name{
+    padding-top: 1.3vw;
+    padding-left: 0.6vw;
+    font-family: "Bebas Neue";
+    font-size: 1.3vw;
+    font-weight: 500;
+    color:#131742;
+    
+}
+.SP-lists-content-tag1{
+    /* border: 2px solid black; */
+    width: 25%;
+    display: flex;
+    display: flex;
+    align-items: center;
+    padding-top: 1.3vw;
+}
+.SP-lists-content-tag1-rate{
+    font-family: "Bebas Neue";
+    font-size: 1.5vw;
+    font-weight: 500;
+    color:gray;
+}
+.SP-lists-content-tag1 svg{
+    font-size: 0.8vw;
+    color: red;
+}
+
+.SP-lists-content-arrow{
+    /* border: 2px solid black; */
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.SP-lists-content-arrow svg{
+    font-size: 1.2vw;
+}
+
+.scrollbar
+{
+	/* margin-left: 30px; */
+	float: left;
+	height: 66%;
+    width: 100%;
+	background: #F5F5F5;
+	overflow-y: scroll;
+	margin-bottom: 25px;
+}
+
+
+#style-14::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.6);
+	background-color: #CCCCCC;
+}
+
+#style-14::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #F5F5F5;
+}
+
+#style-14::-webkit-scrollbar-thumb
+{
+	background-color: #FFF;
+	background-image: -webkit-linear-gradient(90deg,
+	                                          rgba(0, 0, 0, 1) 0%,
+											  rgba(0, 0, 0, 1) 25%,
+											  transparent 100%,
+											  rgba(0, 0, 0, 1) 75%,
+											  transparent)
+}
+
+
+.SP-Smallcard12{
+    height: 6vw;
+    width:50%; 
+    /* border: 2px solid black; */
+    border-radius: 3vh;
+    display: flex;
+}
+
+.SP-Smallcard-content2{
+    /* border: 2px solid black; */
+    border-radius: 3vh;
+    height: 6vw;
+    width:100%;
+    display: flex;
+}
+
+.SP-Smallcard-content-head12{
+
+    font-family: "Poppins";
+    margin-left: 10%;
+    margin-top: 5%;
+    font-weight: 600;
+    display: flex;
+    /* border: 2px solid red; */
+
+}
+.SP-Smallcard-content-head22{
+
+    font-family: "Poppins";
+    font-size: 90%;
+    font-weight: 600;
+    color: gray;
+    margin-left: 5%;
+    margin-top: 4%;
+    /* border: 2px solid green; */
+
+}
+.SP-Smallcard-content-head12 svg{
+    margin-bottom: -4%;
+    margin-left: -2%;
+    margin-top: -2%;
+    color:rgb(69, 212, 104);
+}

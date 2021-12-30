@@ -11,6 +11,14 @@ import ProspectForm2 from "./pages/ProspectForm/ProspectForm2";
 import OwnProfile from "./pages/OwnProfile";
 import BigBoard from "./pages/BigBoard";
 import PhasesAlternate from "./pages/PhasesAlternate";
+import About from "./pages/About"
+import PoolSelector from "./pages/PoolSelector";
+import Profile from "./pages/Profileown";
+import Profile1 from "./pages/Profileown1";
+import Session from "./pages/SESSIONS";
+import ParticipantProfile from "./pages/ParticipantProfile";
+import SinglePhase from "./pages/SinglePhase";
+import GameEnded from "./pages/GameEnded";
 
 const theme = createMuiTheme({
   overrides: {
@@ -41,6 +49,14 @@ function App() {
               <Route exact path="/ownprofile" element={<OwnProfile />} />
               <Route exact path="/bigboard" element={<BigBoard />} />
               <Route exact path="/phasesalternate" element={<PhasesAlternate />} />
+              <Route exact path="/about" element={<About />} />
+              <Route exact path="/poolselector" element={<PoolSelector />} />
+              <Route exact path="/profileown" element={<Profile />} />
+              <Route exact path="/profileown1" element={<Profile1 />} />
+              <Route exact path="/session" element={<Session />} />
+              <Route exact path="/participantprofile" element={<ParticipantProfile />} />
+              <Route exact path="/gameend" element={<GameEnded />} />
+              <Route exact path="/singlephase" element={<SinglePhase />} />
             </Routes>
       </BrowserRouter>
     </ThemeProvider>

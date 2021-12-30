@@ -1,0 +1,172 @@
+.bebas{
+    font-family:'Bebas Neue', cursive;
+    letter-spacing: 1vw;
+}
+.popins{
+    font-family:Poppins;
+}
+.After-Drawer{
+    display: flex;
+    margin-left: 230px;
+    height: 100vh;
+    width: 80vw;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.options{
+    height: 9vh;
+    width: 6vw;
+   
+}
+
+.box{
+    position: relative;
+    height: 8vh;
+    width: 20vh;
+    left:1.5vw;
+    padding-top: 2vh;
+    
+}
+
+.box-icon{
+
+}
+.boxhead{
+
+    font-size: 1.5vh;
+    color: gray;
+
+}
+.boxcontent{
+    font-size: 2.5vh;
+    letter-spacing: 0.1vw;
+    font-weight: 100;
+    color: rgb(20, 20, 67);;
+
+}
+
+.imageP1{
+    position: absolute;
+    height: 70vh;
+    width: 35vw;
+    top: 8vh;
+    left: 40vw;
+    z-index: -1;
+}
+
+.detail-card{
+
+    height: 35vh;
+    width: 17vw;
+    /* border: 2px solid black; */
+    border-radius: 10%;
+
+}
+
+.detail-image{
+
+    /* border: 2px solid black; */
+    height: 17vh;
+    width: 17vw;
+    border-radius: 10%;
+
+}
+
+.detail-head{
+
+    /* border: 2px solid black; */
+    height: 6vh;
+    width: 15vw;
+    font-size: 2vh;
+    padding-top: 0.7vh;
+    font-family: Poppins;
+    color: black;
+    font-weight: bold;
+    word-spacing:0.2vw;
+    padding-left: 0.4vw;
+    line-height: 2.4vh;
+
+}
+
+.detail-content{
+
+    /* border: 2px solid black; */
+    height: 7vh;
+    width: 15vw;
+    font-size: 1.4vh;
+    padding-top: 0.9vh;
+    font-family: 'Bebas Neue';
+    color: grey;
+    font-weight: 040;
+    word-spacing:0.2vw;
+    padding-left: 0.4vw;
+    opacity:0.6px;
+
+}
+
+.detail-card img{
+
+    height: 17vh;
+    width: 15vw;
+    border-radius: 3vh 3vh 0vh 0vh;
+
+}
+
+.Profile-rightPartt-cards{
+
+    /* border: 2px solid black; */
+    position: absolute;
+    left: 76vw;
+    top:33vw;
+
+}
+
+.Profile-rightPart-card-small{
+
+    /* border: 2px solid red; */
+    height: 11vw;
+    /* border-radius: 4vh; */
+    width: 18.6vw;
+    margin-bottom: 3vh;
+    margin-top: 2vh;
+    /* border: 2px solid black; */
+   
+
+}
+
+.Profile-rightPart-card-small-content{
+
+}
+
+.Profile-rightPart-card-small-content-head1{
+
+    font-family: "Poppins";
+    font-size: 1.7vh;
+    font-weight: 600;
+    color:gray;
+    letter-spacing: 0.15vw;
+    margin-top: 1.5vh;
+    margin-left: 1vw;
+
+}
+
+.Profile-rightPart-card-small-content-head2{
+
+    font-family: "Poppins";
+    font-size: 2vh;
+    font-weight: 600;
+    margin-left: 1vw;
+    margin-top: -1.5vh;
+    
+}
+
+.Profile-rightPart-card-small-content-head3{
+
+    font-family: "Poppins";
+    font-size: 1.3vh;
+    font-weight: 500;
+    color: grey;
+    margin-left: 1vw;
+    margin-top: -1.5vh;
+}

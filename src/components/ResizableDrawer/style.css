@@ -1,0 +1,104 @@
+
+
+.resize-Box{
+    height: 100%;
+    width: 18vw;
+    margin-left: 1vw;
+    /* border: 2px solid black; */
+}
+.Name{
+    font-size: 4vw;
+    font-weight: 400;
+    color: rgb(21, 21, 82);
+    font-family: "Bebas Neue";
+    
+    /* margin-left: 0vw; */
+}
+.photo{
+
+    height: 13vw;
+    width: 12vw;
+    position: relative;
+    left: 1.8vw;
+    top:-1.2vw;
+
+}
+.view-Profile{
+    text-decoration: none;
+    color: rgb(21, 21, 82);
+    font-weight: 1000;
+    position: relative;
+    left: 4vw;
+   
+    font-size: 0.9vw;
+    font-family: "Poppins";
+    letter-spacing: 0.1vw;
+}
+.button{
+    position: relative;
+    left: -1.2vw;
+    top: 3vw;
+    font-weight: 500;
+    
+}
+.bigboard{
+   
+    height: 4vw;
+    width: 17vw;
+    /* border: 2px solid black; */
+    color: rgb(21, 21, 82);
+    
+    padding-top: 1vw;
+    border-radius: 0vh 2vh 2vh 0vh;
+    padding-left: 2vw;
+    font-family: "Bebas Neue";
+    letter-spacing: 0.1vw;
+    font-size: 1.3vw;
+}
+.phases{
+    height: 4vw;
+    width: 17vw;
+    /* border: 2px solid black; */
+    color: rgb(21, 21, 82);
+    
+    padding-top: 1vw;
+    border-radius: 0vh 2vh 2vh 0vh;
+    padding-left: 2vw;
+    font-family: "Bebas Neue";
+    letter-spacing: 0.1vw;
+    font-size: 1.3vw;
+
+}
+.sessions{
+    height: 4vw;
+    width: 17vw;
+    /* border: 2px solid black; */
+    color: rgb(21, 21, 82);
+    
+    padding-top: 1vw;
+    border-radius: 0vh 2vh 2vh 0vh;
+    padding-left: 2vw;
+    font-family: "Bebas Neue";
+    letter-spacing: 0.1vw;
+    font-size: 1.3vw;
+}
+.icon{
+    color: red;
+}
+.bigboard:hover{
+    
+    background-color: rgb(21, 21, 82);
+    color: white;
+    
+}
+.phases:hover{
+    background-color: rgb(21, 21, 82);
+    color: white;
+}
+.sessions:hover{
+    background-color: rgb(21, 21, 82);
+    color: white;
+}
+.icon:hover{
+    color: rgb(205, 196, 196);
+}

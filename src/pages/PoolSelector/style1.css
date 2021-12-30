@@ -1,0 +1,175 @@
+
+.After-Drawer{
+    display: flex;
+    margin-left: 230px;
+    height: 100vh;
+    width: 80vw;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.options{
+    height: 9vh;
+    width: 6vw;
+   /* border: 2px solid black; */
+}
+
+.box{
+    position: relative;
+    height: 8vh;
+    width: 18vh;
+    left:1.5vw;
+    padding-top: 2vh;
+    
+}
+
+.box-icon{
+
+}
+.boxhead{
+
+    font-size: 1.5vh;
+    color: gray;
+
+}
+.boxcontent{
+    font-size: 2.5vh;
+    color: rgb(20, 20, 67);;
+
+}
+
+.image1{
+    position: absolute;
+    height: 90vh;
+    width: 40vw;
+    top: 8vh;
+    left: 40vw;
+    z-index: -1;
+}
+
+.image2{
+    height: 25vh;
+    width: 10vw;
+    border-radius: 3vh;
+    position: absolute;
+    top: 68vh;
+    left: 20vw;
+}
+.image3{
+    height: 25vh;
+    width: 10vw;
+    border-radius: 3vh;
+    position: absolute;
+    top: 68vh;
+    left: 35vw;
+    
+}
+
+.data-logo{
+    display: flex;
+
+}
+.data-logo p{
+    font-size: 3.5vh;
+    font-weight: 600;
+    color: rgb(20, 20, 67);
+    margin-top: 1vh;
+    margin-left: 0vw;
+    font-family: Poppins;
+    letter-spacing: 0.15vw;
+}
+
+.data-head1 p{
+
+    font-size: 15vh;
+    color: red;
+    /* font-family: Bebas Neue; */
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    margin-top: -10vh;
+    margin-bottom: -7vh;
+    font-weight: 400;
+    
+
+}
+.data-head1 span{
+
+    font-size: 8vh;
+    color: rgb(20, 20, 67);
+    /* font-family: Bebas Neue; */
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Bebas Neue', cursive;
+    /* font-family: 'Open Sans Condensed', sans-serif; */
+    padding-top: -4vh;
+    font-weight: 400;
+
+}
+
+.data-content-comma{
+
+    color: red;
+    font-size: 4vh;
+    font-weight: bolder;
+    display: inline;
+    margin-top: -2vh;
+    /* margin-right: 0.5vw; */
+
+}
+.data-content{
+    
+    margin-top: -3vh;
+    color: rgb(20, 20, 67);
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 1.8vh;
+}
+
+.PoolSelector-box{
+    /* border: 2px solid blue; */
+    height: 6vw;
+    width: 15vw;
+    position: absolute;
+    top:28vw;
+    left: 59vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+.PoolSelector-box-btn{
+    /* border: 2px solid green; */
+    /* background-color: green; */
+    background: linear-gradient(270.46deg, #66CB15 0.42%, #61C015 151.11%);
+    height: 5vw;
+    width: 10vw;
+    text-align: center;
+    font-family: "Bebas Neue";
+    position: absolute;
+    left: 5vw;
+    padding-top: 1.4vw;
+    font-size: 1.8vw;
+    color: white;
+    border-radius: 2vh;
+    letter-spacing: 0.1vw;
+}
+
+.PoolSelector-box-loader{
+    /* border: 2px solid green; */
+    /* margin-right: 2vw; */
+    position: absolute;
+    left:-5vw;
+}
+
+.PoolSelector-box-loader-content{
+    height: 3.7vw;
+    width: 3.7vw;
+    background-color: white;
+    border-radius: 2vw;
+    margin-left: 0.05vw;
+    margin-top: -0.09vw;
+    text-align: center;
+}
